@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "category": "Andriod",
+        "products" : [
+            {
+            "id": 1,
+            "name": "Techno",
+            "OS": "andriod",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price": "500$"
+            },
+            {
+            "id": 2,
+            "name": "Samsung",
+            "OS": "andriod",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price": "800$"   
+            },
+            {
+            "id": 3,
+            "name": "Nokia",
+            "OS": "andriod",
+            "specifications" : {
+                "storage": "32GB",
+                "RAM": "4GB"
+            },
+            "price": "200$"   
+            },
+            {
+            "id": 4,
+            "name": "Infinix",
+            "OS": "andriod",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price":"1500$"   
+            },
+            {
+            "id": 5,
+            "name": "Itel",
+            "OS": "andriod",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price":"800$"   
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "iPhones",
+        "products" : [
+            {
+            "id": 6,
+            "name": "iPhone 6",
+            "OS": "iOS",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price": "500$"
+            },
+            {
+            "id": 7,
+            "name": "iPhone X",
+            "OS": "iOS",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price": "800$"   
+            },
+            {
+            "id": 8,
+            "name": "iPhone 12",
+            "OS": "iOS",
+            "specifications" : {
+                "storage": "32GB",
+                "RAM": "4GB"
+            },
+            "price": "200$"   
+            },
+            {
+            "id": 9,
+            "name": "iPhone 13 proMax",
+            "OS": "andriod",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price":"1500$"   
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Laptop",
+        "products" : [
+            {
+            "id": 10,
+            "name": "Hp",
+            "OS": "windows",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price": "500$"
+            },
+            {
+            "id": 11,
+            "name": "Dell",
+            "OS": "windows",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price": "800$"   
+            },
+            {
+            "id": 12,
+            "name": "Lenovo",
+            "OS": "windows",
+            "specifications" : {
+                "storage": "32GB",
+                "RAM": "4GB"
+            },
+            "price": "200$"   
+            },
+            {
+            "id": 13,
+            "name": "Acer",
+            "OS": "windows",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price":"1500$"   
+            },
+            {
+            "id": 14,
+            "name": "Asus",
+            "OS": "windows",
+            "specifications" : {
+                "storage": "64GB",
+                "RAM": "4GB"
+            },
+            "price":"800$"   
+            }
+        ]
+    }
+]
