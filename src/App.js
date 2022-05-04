@@ -1,21 +1,22 @@
 import React from "react";
 
 import './App.css'
-import { Content } from "./components/Content/content.component";
-import { Footer } from "./components/main-footer/footer.component";
-import { MainHeader } from "./components/Main-header/Main-header.component";
+
+
+import 'antd/dist/antd.css';
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage/homepage";
+import SignUpAndSignIn from "./pages/signup-and-login-page/signup-and-login-page";
 
 
 function App() {
   return (
     <div className="App">
-        <header>
-          <MainHeader/>
-        </header>
-        <Content/>
-        <footer>
-          <Footer/>
-        </footer>
+      <Routes>
+        <Route exact path='/' element={<HomePage/>}/>
+        <Route exact path='/login' element={<SignUpAndSignIn/>}/>
+      </Routes>
+      
     </div>
   );
 }

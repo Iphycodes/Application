@@ -7,5 +7,6 @@ export const MainHeader = () => (
     <MainHeaderContainer>
         <NavHeader/>
         <FrontDisplay/>
+        
     </MainHeaderContainer>
 )

@@ -4,7 +4,7 @@ import { FooterContainer } from "./main-footer.styled";
 import {ReactComponent as Logo} from '../../assets/logo.svg'
 
 
-export const Footer = () => {
+export const MainFooter = () => {
 
     return (
         <FooterContainer>
