@@ -2,7 +2,7 @@ import React from "react";
 
 import {MainHeader} from '../../components/Main-header/Main-header.component'
 import { Content } from "../../components/Content/content.component";
-import {MainFooter} from '../../components/main-footer/footer.component'
+import {MainFooter} from '../../components/Main-footer/footer.component'
 
 
 const HomePage = () => (

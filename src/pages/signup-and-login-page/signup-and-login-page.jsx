@@ -1,18 +1,21 @@
 import React from "react";
-import { MainContainer, PageBackground } from "./signup-and-login-page.styled";
+import { AdvertContainer, FormContainer, MainContainer, PageBackground } from "./signup-and-login-page.styled";
+import './signup-and-login-page.style.scss'
+import { Advert } from "../../components/Advert/advert.component";
 
 
 const SignUpAndSignIn = () => {
 
-    
-
     return (
       <PageBackground>
-        <Card style={{ width: 300 }}>
-          <p>Card content</p>
-          <p>Card content</p>
-          <p>Card content</p>
-        </Card>
+        <MainContainer>
+          <AdvertContainer>
+            <Advert/>
+          </AdvertContainer>
+         <FormContainer>
+
+         </FormContainer>
+        </MainContainer>
       </PageBackground>
     )
 }
